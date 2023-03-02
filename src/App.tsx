@@ -1,11 +1,17 @@
 import React from 'react';
-import { Counter } from './features/counter/Counter';
 import './App.scss';
+import { Categorybar, Filter, Footer, Header, Navbar, Products, Searchbar } from './containers';
 
 function App() {
   return (
     <div className="App">
-      Heyho
+      <Navbar />
+      <Header />
+      <Searchbar />
+      <Filter />
+      <Categorybar />
+      <Products />
+      <Footer />
     </div>
   );
 }
